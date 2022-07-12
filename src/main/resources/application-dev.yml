@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://api.maiquer.tech:3306/counsel?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2b8
+    username: root
+    password: maiqu
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  thymeleaf:
+    suffix: .html
+    prefix: classpath:/templates/
+    encoding: UTF-8
+    mode: HTML
+    cache: false
